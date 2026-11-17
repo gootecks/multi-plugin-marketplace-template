@@ -1,0 +1,18 @@
+{
+  "name": "kitchen-sink",
+  "version": "0.1.0",
+  "description": "Reference plugin with one of every component type and a logger on every hook event, for Claude Code, Codex, Copilot and Cursor",
+  "author": {
+    "name": "Carter Cole",
+    "email": "carter@cartercole.com"
+  },
+  "homepage": "https://github.com/CarterCole/example-ai-marketplace/tree/main/plugins/kitchen-sink",
+  "repository": "https://github.com/CarterCole/example-ai-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "reference",
+    "hooks",
+    "examples"
+  ],
+  "commands": "./commands/"
+}

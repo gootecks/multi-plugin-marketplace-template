@@ -1,0 +1,9 @@
+---
+description: House rules for git commits and pushes
+alwaysApply: true
+---
+
+- Write commit messages in Conventional Commits format (`type(scope): subject`).
+- Never force-push to `main` or `master`. Use `--force-with-lease` on feature branches only.
+- Never commit `.env` files, credentials, or generated build output.
+- Keep each commit to one logical change.

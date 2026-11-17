@@ -1,0 +1,18 @@
+{
+  "name": "commit-craft",
+  "version": "0.1.0",
+  "description": "Conventional Commits skill, /commit command, diff-reviewer agent, force-push guard hook and git MCP server",
+  "author": {
+    "name": "Carter Cole",
+    "email": "carter@cartercole.com"
+  },
+  "homepage": "https://github.com/CarterCole/example-ai-marketplace/tree/main/plugins/commit-craft",
+  "repository": "https://github.com/CarterCole/example-ai-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "commits",
+    "code-review"
+  ],
+  "commands": "./commands/"
+}

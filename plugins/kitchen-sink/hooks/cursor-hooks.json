@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor sessionStart"
+      }
+    ],
+    "sessionEnd": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor sessionEnd"
+      }
+    ],
+    "workspaceOpen": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor workspaceOpen"
+      }
+    ],
+    "beforeSubmitPrompt": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor beforeSubmitPrompt"
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor preToolUse"
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor postToolUse"
+      }
+    ],
+    "postToolUseFailure": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor postToolUseFailure"
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor beforeShellExecution"
+      }
+    ],
+    "afterShellExecution": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor afterShellExecution"
+      }
+    ],
+    "beforeMCPExecution": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor beforeMCPExecution"
+      }
+    ],
+    "afterMCPExecution": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor afterMCPExecution"
+      }
+    ],
+    "beforeReadFile": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor beforeReadFile"
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor afterFileEdit"
+      }
+    ],
+    "beforeTabFileRead": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor beforeTabFileRead"
+      }
+    ],
+    "afterTabFileEdit": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor afterTabFileEdit"
+      }
+    ],
+    "subagentStart": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor subagentStart"
+      }
+    ],
+    "subagentStop": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor subagentStop"
+      }
+    ],
+    "preCompact": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor preCompact"
+      }
+    ],
+    "afterAgentResponse": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor afterAgentResponse"
+      }
+    ],
+    "afterAgentThought": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor afterAgentThought"
+      }
+    ],
+    "stop": [
+      {
+        "command": "node \"${CURSOR_PLUGIN_ROOT}/hooks/on-event.mjs\" cursor stop"
+      }
+    ]
+  }
+}

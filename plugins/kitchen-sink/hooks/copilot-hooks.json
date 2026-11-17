@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot sessionStart",
+        "powershell": "node ./hooks/on-event.mjs copilot sessionStart",
+        "timeoutSec": 10
+      }
+    ],
+    "sessionEnd": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot sessionEnd",
+        "powershell": "node ./hooks/on-event.mjs copilot sessionEnd",
+        "timeoutSec": 10
+      }
+    ],
+    "userPromptSubmitted": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot userPromptSubmitted",
+        "powershell": "node ./hooks/on-event.mjs copilot userPromptSubmitted",
+        "timeoutSec": 10
+      }
+    ],
+    "preToolUse": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot preToolUse",
+        "powershell": "node ./hooks/on-event.mjs copilot preToolUse",
+        "timeoutSec": 10
+      }
+    ],
+    "postToolUse": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot postToolUse",
+        "powershell": "node ./hooks/on-event.mjs copilot postToolUse",
+        "timeoutSec": 10
+      }
+    ],
+    "postToolUseFailure": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot postToolUseFailure",
+        "powershell": "node ./hooks/on-event.mjs copilot postToolUseFailure",
+        "timeoutSec": 10
+      }
+    ],
+    "permissionRequest": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot permissionRequest",
+        "powershell": "node ./hooks/on-event.mjs copilot permissionRequest",
+        "timeoutSec": 10
+      }
+    ],
+    "agentStop": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot agentStop",
+        "powershell": "node ./hooks/on-event.mjs copilot agentStop",
+        "timeoutSec": 10
+      }
+    ],
+    "subagentStart": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot subagentStart",
+        "powershell": "node ./hooks/on-event.mjs copilot subagentStart",
+        "timeoutSec": 10
+      }
+    ],
+    "subagentStop": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot subagentStop",
+        "powershell": "node ./hooks/on-event.mjs copilot subagentStop",
+        "timeoutSec": 10
+      }
+    ],
+    "preCompact": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot preCompact",
+        "powershell": "node ./hooks/on-event.mjs copilot preCompact",
+        "timeoutSec": 10
+      }
+    ],
+    "notification": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot notification",
+        "powershell": "node ./hooks/on-event.mjs copilot notification",
+        "timeoutSec": 10
+      }
+    ],
+    "errorOccurred": [
+      {
+        "type": "command",
+        "bash": "node ./hooks/on-event.mjs copilot errorOccurred",
+        "powershell": "node ./hooks/on-event.mjs copilot errorOccurred",
+        "timeoutSec": 10
+      }
+    ]
+  }
+}

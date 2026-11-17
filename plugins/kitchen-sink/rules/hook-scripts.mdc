@@ -1,0 +1,12 @@
+---
+description: Conventions for hook scripts in this repository
+globs: "**/hooks/*.mjs"
+alwaysApply: false
+---
+
+This is the **Cursor rule** example: `globs` attaches it when matching files are in context; `alwaysApply: true` would attach it to every request.
+
+- Hook scripts read one JSON payload from stdin and never prompt for input.
+- Block only by exiting with code 2 and a reason on stderr; every supported tool honors that.
+- Exit 0 on anything unexpected, so a bug in a hook never stops the agent.
+- Don't log prompt or command text.

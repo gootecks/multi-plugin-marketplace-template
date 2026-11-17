@@ -1,0 +1,48 @@
+{
+  "name": "example-ai-marketplace",
+  "owner": {
+    "name": "Carter Cole",
+    "email": "carter@cartercole.com"
+  },
+  "metadata": {
+    "description": "Example plugins for Claude Code, GitHub Copilot, Codex, Cursor and Gemini CLI",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "commit-craft",
+      "source": "./plugins/commit-craft",
+      "description": "Conventional Commits skill, /commit command, diff-reviewer agent, force-push guard hook and git MCP server",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": [
+        "git",
+        "commits",
+        "code-review"
+      ]
+    },
+    {
+      "name": "changelog-writer",
+      "source": "./plugins/changelog-writer",
+      "description": "Skill-only example: turns git history into a Keep a Changelog entry",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": [
+        "changelog",
+        "release"
+      ]
+    },
+    {
+      "name": "kitchen-sink",
+      "source": "./plugins/kitchen-sink",
+      "description": "Reference plugin with one of every component type and a logger on every hook event, for Claude Code, Codex, Copilot and Cursor",
+      "version": "0.1.0",
+      "category": "development",
+      "keywords": [
+        "reference",
+        "hooks",
+        "examples"
+      ]
+    }
+  ]
+}

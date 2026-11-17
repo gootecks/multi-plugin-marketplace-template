@@ -1,0 +1,13 @@
+{
+  "name": "changelog-writer",
+  "version": "0.1.0",
+  "description": "Skill-only example: turns git history into a Keep a Changelog entry",
+  "author": {
+    "name": "Carter Cole",
+    "email": "carter@cartercole.com"
+  },
+  "homepage": "https://github.com/CarterCole/example-ai-marketplace/tree/main/plugins/changelog-writer",
+  "repository": "https://github.com/CarterCole/example-ai-marketplace",
+  "license": "MIT",
+  "keywords": ["changelog", "release"]
+}

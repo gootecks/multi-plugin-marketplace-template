@@ -1,0 +1,6 @@
+# Codex reads project config only after you trust the project.
+# Keep this in sync with ../.mcp.json (Codex uses TOML, so it can't be a symlink).
+
+[mcp_servers.git]
+command = "uvx"
+args = ["mcp-server-git"]
